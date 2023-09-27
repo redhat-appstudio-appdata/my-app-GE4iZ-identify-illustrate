@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-cpbq
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/sbudhwar-1-tenant/my-app/devfile-sample-cpbq@sha256:b9d6c0b4414fab13b274f4d1ff84f8574833fb4c3157f7ee770c5539a6075f37
+      - image: quay.io/redhat-user-workloads/sbudhwar-1-tenant/my-app/devfile-sample-cpbq@sha256:fc384d4d93efa52c1588397dc67c94503d57095913c62a50616fb1d7ec0a773d
         name: my-nodejs
         ports:
         - containerPort: 3001
